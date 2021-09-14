@@ -32,6 +32,7 @@ QA Exercise - creating a test plan
 * This test plan focuses on functional and design QA
 * Test case management will be performed using Jira's free version
 * **Constraints:** The entirety of this project is limited to 2 classes of 5 hours each, including the initial task explanation, Jira demonstration, team forming, etc. 
+
 *(The creation of this Readme falls outside of said time constraints)*
 
 # Tasks
@@ -54,6 +55,7 @@ Testing of [PHP Travels](https://phptravels.net/) will entail:
 As test project is managed and performed by 2 members, with a very limited timeframe, testing will be performed only on their main devices running following OS's:
 * Apple MacBook Pro 2020 M1; OS: Big Sur - latest
 * Windows 10 Pro 64-bit
+
 Testing will be conducted using latest version (at the time of testing - Version 93.0.4577.82) of Google Chrome on both devices
 
 ## Out of scope
@@ -80,7 +82,8 @@ Testing will be conducted using latest version (at the time of testing - Version
 # Examples
 ## Test Cases
 ### Test top navigation menus page - Tours 
-* **Page:** [PHP Travels](https://phptravels.net/)
+* **Page:** [PHP Travels](<iframe class="embeddedObject shadow resizable" name="embedded_content" scrolling="no" frameborder="0" type="text/html" 
+        style="overflow:hidden;" src="https://www.screencast.com/users/ArtrsMielsons/folders/Default/media/61a1464c-e288-4c7c-a408-58f96d3c4d9f/embed" height="513" width="800" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>)
 * **Feature:** Top navigation menu
 * **Steps:**
    * Step 1: Navigate to the top navigation menu
