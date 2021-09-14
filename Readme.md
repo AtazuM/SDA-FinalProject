@@ -2,14 +2,13 @@
 - [Assumptions](#assumptions)
 - [Tasks](#tasks)
 - [Scope](#scope)
-  - [Pages, features & flows](#pages-features--flows)
+  - [In Scope](#in-scope)
   - [Browsers, platforms & devices](#browsers-platforms--devices)
   - [Out of scope](#out-of-scope)
 - [Testing Strategy](#testing-strategy)
   - [Exploratory QA](#exploratory-qa)
   - [Design QA](#design-qa)
   - [Functional QA](#functional-qa)
-  - [Accessibility QA](#accessibility-qa)
 - [Examples](#examples)
   - [Test Cases](#test-cases)
     - [Searching for a topic of interest on CNN Tech](#searching-for-a-topic-of-interest-on-cnn-tech)
@@ -27,50 +26,44 @@ QA Exercise - creating a test plan
 * Document the project on Jira
 
 # Assumptions
-
 * Performance testing, stress testing, API testing, development QA, etc. are not considered a part of this test plan and assignment
 * This test plan focuses on functional and design QA
 * Test case management will be performed using Jira's free version
 * **Constraints:** The entirety of this project is limited to 2 classes of 5 hours each, including the initial task explanation, Jira demonstration, team forming, etc. 
 *(The creation of this Readme falls outside of said time constraints)*
 
-
 # Tasks
-* 
+* Determine scope
+* Create test cases
+* Run created test cases
 
 # Scope
-
-## Pages, features & flows
-Break down CNN.com into pages, features and user flows.  
-
-Examples:
-* Pages
-    * Home page (navigation, article sections, ad-space, footer, etc.)
-    * Travel
-    * Money
-    * Video
-* Features
-    * Search
-    * Video
-    * Sharing articles
-* User flows
-    * Using search to find articles on topics of interest
-    * Browsing news, clicking into articles and getting back to home screen
-    * Using CNN.com to watch TV and videos
-    * Sharing articles via Facebook, Twitter and Email
+## In Scope
+Testing of [PHP Travels](https://phptravels.net/) will entail:
+* GUI
+* Site overall navigation functionallity
+* User input and product options
+* Features:
+  * Booking of hotels
+  * Booking of flights
+  * Booking of tours
 
 ## Browsers, platforms & devices
-List everything within scope.
+As test project is managed and performed by 2 members, with a very limited timeframe, testing will be performed only on their main devices running following OS's:
+* Apple MacBook Pro 2020 M1; OS: Big Sur - latest
+* Windows 10 Pro 64-bit
+Testing will be conducted using latest version (at the time of testing - Version 93.0.4577.82) of Google Chrome on both devices
 
 ## Out of scope
-List all out-of-scope features and functionality.
-
-Examples:
-* advertisements
-* cable provider log-in
+* The connection between user input and database
+* Back-end functionality
+* Performance testing
+* Stress testing
+* API testing
+* Development QA
+* Regression testing
 
 # Testing Strategy
-
 ## Exploratory QA 
 * Test for usability
 * 
@@ -83,14 +76,7 @@ Examples:
 * Obtain list of requirements
 * 
 
-## Accessibility QA
-* Accessibility or compliance?
-* 
-
-Regression testing (make sure no other features were unintentionally broken after fixes)
-
 # Examples
-
 ## Test Cases
 
 ### Searching for a topic of interest on CNN Tech 
