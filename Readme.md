@@ -12,7 +12,7 @@
   - [Test Cases](#test-cases)
     - [Test top navigation menus page - Tours](#test-top-navigation-menus-page---tours)
     - [Booking a flight RIX - BER](#booking-a-flight-rix---ber)
-  - [Tickets](#tickets)
+  - [Bugs](#bugs)
 - [Sprint summary](#sprint-summary)
   - [Sprint 1](#sprint-1)
   - [Sprint 2](#sprint-2)
@@ -25,7 +25,7 @@ QA Exercise - creating a test plan
 **Instructions:** 
 * Work in pairs (to simulate RL teamworking experience)
 * Create a test plan, which should include steps to identify both visual and functional defects
-* Document the project on Jira
+* Document the project on Jira, using Xray extenshion
 
 # Assumptions
 * Performance testing, stress testing, API testing, development QA, etc. are not considered a part of this test plan and assignment
@@ -81,6 +81,7 @@ Testing will be conducted using latest version (at the time of testing - Version
 
 # Examples
 ## Test Cases
+
 ### Test top navigation menus page - Tours 
 * **Page:** [PHP Travels](https://phptravels.net/)
 * **Feature:** Top navigation menu
@@ -94,24 +95,28 @@ Testing will be conducted using latest version (at the time of testing - Version
     ![Image of Tour booking tool](https://content.screencast.com/users/ArtrsMielsons/folders/Default/media/39c88684-566c-4c5f-ade2-2f5c6a82ce26/Tour_booking_tool.JPG)
     * Below it should be "Featured Tours" section
     ![Image of "Featured Tours" section](https://content.screencast.com/users/ArtrsMielsons/folders/Default/media/61a1464c-e288-4c7c-a408-58f96d3c4d9f/Featured_tours_section.JPG)
-* **Actual result:** 
-  * Tours nagivation button functions as intended, the actual result matches the expected result
+
+*(Content can visually differ on later development versions, images are intended to show the structure of the required objects)*
 
 ### Booking a flight RIX - BER
 * **Page:** [PHP Travels](https://phptravels.net/)
 * **Feature:** Booking of a flight
 * **Steps:**
-   * Step 1: Navigate to CNN Travel
-   * Step 2: Click into an article
-   * Step 3: Click on the Twitter share icon under the headline
-   * Step 4: Share article
-   * Step 5: Check Twitter account to verify article is shared
+   * Step 1: Click on "Flights" tab on the central booking tool
+   * Step 2: In the field "Flying From" type in "RIX" and pick it from the provided search results by clicking on it
+   * Step 3: In the field "To Destination" type in "BER" and pick it from the provided search results by clicking on it
+   * Step 4: Click on the field displaying date, below "Departure Date"
+   * Step 5: Navigate and select 1st October, 2021 by clicking on it
+   * Step 6: Change the number of adult passangers to 2 by clicking on the "Passangers" selection and clicking on the "+" symbol in "Adults" line
+   * Step 7: Click "Search"
+   * Step 8: Click "Book now" on the topmost search result
+   * Step 9: Scroll down to payment method selection, tick the checkbox for "PayPal"
+   * Step 10: Click "Confirm Booking"
+   * Step 11: Click "Proceed"
  * **Expected result:**
-  * s
-* **Actual result:** 
-  * x 
+  * User should be transfered to PayPal payment page
 
-## Tickets
+## Bugs
 * [bug-UI (global - links): inconsistent hover state on link text [Firefox]](https://github.com/LizCottrell/quality-assurance/issues/2)
 * [bug-ADA (global - footer): insufficient contrast on footer text + links](https://github.com/LizCottrell/quality-assurance/issues/1)
 * [bug (home page - navigation) spelling error](https://github.com/LizCottrell/quality-assurance/issues/4)
