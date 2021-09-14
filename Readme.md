@@ -1,5 +1,4 @@
 - [Preface](#preface)
-  - [Pre-QA questions:](#pre-qa-questions)
 - [Assumptions](#assumptions)
 - [Tasks](#tasks)
 - [Scope](#scope)
@@ -20,13 +19,12 @@
 # Preface
 QA Exercise - creating a test plan
 
-**Purpose:** to test a large, content-focused website like CNN.com 
+**Purpose:**  to solidify the knowledge obtained in the course, by applying it in a practical setting
 
-**Instructions:** create a test plan for the site, which should include steps to identify both visual and functional defects on multiple browsers, devices, and platforms. 
-
-## Pre-QA questions:
-* What is the scope and timeline/budget?
-  
+**Instructions:** 
+* Work in pairs (to simulate RL teamworking experience)
+* Create a test plan, which should include steps to identify both visual and functional defects
+* Document the project on Jira
 
 # Assumptions
 
