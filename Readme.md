@@ -10,9 +10,12 @@
   - [Functional QA](#functional-qa)
 - [Examples](#examples)
   - [Test Cases](#test-cases)
-    - [Searching for a topic of interest on CNN Tech](#searching-for-a-topic-of-interest-on-cnn-tech)
-    - [Sharing an article on CNN Travel using Twitter](#sharing-an-article-on-cnn-travel-using-twitter)
+    - [Test top navigation menus page - Tours](#test-top-navigation-menus-page---tours)
+    - [Booking a flight RIX - BER](#booking-a-flight-rix---ber)
   - [Tickets](#tickets)
+- [Sprint summary](#sprint-summary)
+  - [Sprint 1](#sprint-1)
+  - [Sprint 2](#sprint-2)
 
 # Preface
 QA Exercise - creating a test plan
@@ -76,30 +79,35 @@ Testing will be conducted using latest version (at the time of testing - Version
 
 # Examples
 ## Test Cases
-
-### Searching for a topic of interest on CNN Tech 
-* **Page:** CNN Tech
-* **Feature:** Search
-* **Flow:** Search for a topic of interest
+### Test top navigation menus page - Tours 
+* **Page:** [PHP Travels](https://phptravels.net/)
+* **Feature:** Top navigation menu
 * **Steps:**
-   * Step 1: Navigate to CNN Tech
-   * Step 2: Click on the search icon
-   * Step 3: Search for a topic of interest
-   * Step 4: *need requirements to write expected result*
-* **Edge Cases**
-   * Enter nothing in the search bar and click search
+   * Step 1: Navigate to the top navigation menu
+   * Step 2: Click on "Tours"
+* **Expected result:**
+  * [Tours page](https://phptravels.net/tours) should open
+  * It should contain:
+    * Tool for booking tours
+    ![Image of Tour booking tool](https://www.screencast.com/t/aD81JjdZ)
+    * Below it should be "Featured Tours" section
+    ![Image of "Featured Tours" section](https://www.screencast.com/t/UDAhRrAtr)
+* **Actual result:** 
+  * Tours nagivation button functions as intended, the actual result matches the expected result
 
-### Sharing an article on CNN Travel using Twitter
-* **Page:** CNN Travel
-* **Feature:** Share an article
-* **Flow:** Share an article using Twitter
+### Booking a flight RIX - BER
+* **Page:** [PHP Travels](https://phptravels.net/)
+* **Feature:** Booking of a flight
 * **Steps:**
    * Step 1: Navigate to CNN Travel
    * Step 2: Click into an article
    * Step 3: Click on the Twitter share icon under the headline
    * Step 4: Share article
    * Step 5: Check Twitter account to verify article is shared
-
+ * **Expected result:**
+  * s
+* **Actual result:** 
+  * x 
 
 ## Tickets
 * [bug-UI (global - links): inconsistent hover state on link text [Firefox]](https://github.com/LizCottrell/quality-assurance/issues/2)
@@ -107,18 +115,9 @@ Testing will be conducted using latest version (at the time of testing - Version
 * [bug (home page - navigation) spelling error](https://github.com/LizCottrell/quality-assurance/issues/4)
 * [bug-UX (home page - search): search button too close to hamburger nav](https://github.com/LizCottrell/quality-assurance/issues/3)
 
+# Sprint summary
+## Sprint 1
+s
 
-Include the following information for every new issue:
-* **Title:**`````<type>[optional scope]: <description>````` - clearly define *feature/location* + *issue* in the title
-* **Labels:**
-  * Bug type (functional, design or accessibility bug)
-  * Priority
-  * Environment 
-  * Date
-  * URL
-* **Description:**
-  * Device (native or simulator), OS, browser combination
-  
-* **Screenshots** or gif/video
-* **Links:** 
-  * to failed requirement
+## Sprint 2
+x
