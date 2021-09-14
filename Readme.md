@@ -13,9 +13,6 @@
     - [Test top navigation menus page - Tours](#test-top-navigation-menus-page---tours)
     - [Booking a flight RIX - BER](#booking-a-flight-rix---ber)
   - [Bugs](#bugs)
-- [Sprint summary](#sprint-summary)
-  - [Sprint 1](#sprint-1)
-  - [Sprint 2](#sprint-2)
 
 # Preface
 QA Exercise - creating a test plan
@@ -119,10 +116,3 @@ Testing will be conducted using latest version (at the time of testing - Version
 ## Bugs
 * [bug: missing page for a featured tour ["6 days around Thailand"](https://github.com/AtazuM/SDA-FinalProject/issues/1#issue-996169051)
 * [bug: [FAQ Page text lacks formatting](https://github.com/AtazuM/SDA-FinalProject/issues/2#issue-996177729)
-
-# Sprint summary
-## Sprint 1
-s
-
-## Sprint 2
-x
