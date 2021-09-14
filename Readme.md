@@ -82,8 +82,7 @@ Testing will be conducted using latest version (at the time of testing - Version
 # Examples
 ## Test Cases
 ### Test top navigation menus page - Tours 
-* **Page:** [PHP Travels](<iframe class="embeddedObject shadow resizable" name="embedded_content" scrolling="no" frameborder="0" type="text/html" 
-        style="overflow:hidden;" src="https://www.screencast.com/users/ArtrsMielsons/folders/Default/media/61a1464c-e288-4c7c-a408-58f96d3c4d9f/embed" height="513" width="800" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>)
+* **Page:** [PHP Travels](https://phptravels.net/)
 * **Feature:** Top navigation menu
 * **Steps:**
    * Step 1: Navigate to the top navigation menu
@@ -92,9 +91,9 @@ Testing will be conducted using latest version (at the time of testing - Version
   * [Tours page](https://phptravels.net/tours) should open
   * It should contain:
     * Tool for booking tours
-    ![Image of Tour booking tool](https://www.screencast.com/t/aD81JjdZ)
+    ![Image of Tour booking tool](https://content.screencast.com/users/ArtrsMielsons/folders/Default/media/39c88684-566c-4c5f-ade2-2f5c6a82ce26/Tour_booking_tool.JPG)
     * Below it should be "Featured Tours" section
-    ![Image of "Featured Tours" section](https://www.screencast.com/t/UDAhRrAtr)
+    ![Image of "Featured Tours" section](https://content.screencast.com/users/ArtrsMielsons/folders/Default/media/61a1464c-e288-4c7c-a408-58f96d3c4d9f/Featured_tours_section.JPG)
 * **Actual result:** 
   * Tours nagivation button functions as intended, the actual result matches the expected result
 
