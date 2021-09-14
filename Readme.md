@@ -7,7 +7,6 @@
   - [Out of scope](#out-of-scope)
 - [Testing Strategy](#testing-strategy)
   - [Exploratory QA](#exploratory-qa)
-  - [Design QA](#design-qa)
   - [Functional QA](#functional-qa)
 - [Examples](#examples)
   - [Test Cases](#test-cases)
@@ -44,9 +43,9 @@ Testing of [PHP Travels](https://phptravels.net/) will entail:
 * Site overall navigation functionallity
 * User input and product options
 * Features:
-  * Booking of hotels
-  * Booking of flights
-  * Booking of tours
+  * Booking of Hotels
+  * Booking of Flights
+  * Booking of Tours
 
 ## Browsers, platforms & devices
 As test project is managed and performed by 2 members, with a very limited timeframe, testing will be performed only on their main devices running following OS's:
@@ -66,15 +65,14 @@ Testing will be conducted using latest version (at the time of testing - Version
 # Testing Strategy
 ## Exploratory QA 
 * Test for usability
-* 
-
-## Design QA
-* Obtain approved designs
-* 
+* Check both top and footer menu navigation
+* Check visual consistency 
 
 ## Functional QA
-* Obtain list of requirements
-* 
+* Develop test cases to test the main functionality of the page:
+  * Booking of Hotels
+  * Booking of Flights
+  * Booking of Tours
 
 # Examples
 ## Test Cases
