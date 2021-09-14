@@ -114,13 +114,11 @@ Testing will be conducted using latest version (at the time of testing - Version
    * Step 10: Click "Confirm Booking"
    * Step 11: Click "Proceed"
  * **Expected result:**
-  * User should be transfered to PayPal payment page
+    * User should be transfered to PayPal payment page
 
 ## Bugs
-* [bug-UI (global - links): inconsistent hover state on link text [Firefox]](https://github.com/LizCottrell/quality-assurance/issues/2)
-* [bug-ADA (global - footer): insufficient contrast on footer text + links](https://github.com/LizCottrell/quality-assurance/issues/1)
-* [bug (home page - navigation) spelling error](https://github.com/LizCottrell/quality-assurance/issues/4)
-* [bug-UX (home page - search): search button too close to hamburger nav](https://github.com/LizCottrell/quality-assurance/issues/3)
+* [bug: missing page for a featured tour ["6 days around Thailand"](https://github.com/AtazuM/SDA-FinalProject/issues/1#issue-996169051)
+* [bug: [FAQ Page text lacks formatting](https://github.com/AtazuM/SDA-FinalProject/issues/2#issue-996177729)
 
 # Sprint summary
 ## Sprint 1
