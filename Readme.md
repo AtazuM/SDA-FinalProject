@@ -28,7 +28,11 @@ QA Exercise - creating a test plan
 
 # Assumptions
 
-* 
+* Performance testing, stress testing, API testing, development QA, etc. are not considered a part of this test plan and assignment
+* This test plan focuses on functional and design QA
+* Test case management will be performed using Jira's free version
+* **Constraints:** The entirety of this project is limited to 2 classes of 5 hours each, including the initial task explanation, Jira demonstration, team forming, etc. 
+*(The creation of this Readme falls outside of said time constraints)*
 
 
 # Tasks
