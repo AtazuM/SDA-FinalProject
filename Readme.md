@@ -114,5 +114,5 @@ Testing will be conducted using latest version (at the time of testing - Version
     * User should be transfered to PayPal payment page
 
 ## Bugs
-* [bug: missing page for a featured tour ["6 days around Thailand"](https://github.com/AtazuM/SDA-FinalProject/issues/1#issue-996169051)
-* [bug: [FAQ Page text lacks formatting](https://github.com/AtazuM/SDA-FinalProject/issues/2#issue-996177729)
+* bug: missing page for a featured tour ["6 days around Thailand"](https://github.com/AtazuM/SDA-FinalProject/issues/1#issue-996169051)
+* bug: [FAQ Page text lacks formatting](https://github.com/AtazuM/SDA-FinalProject/issues/2#issue-996177729)
