@@ -1,6 +1,24 @@
+- [Intro](#intro)
 - [Sprint 1](#sprint-1)
 - [Sprint 2](#sprint-2)
 - [Conclusions](#conclusions)
+
+# Intro
+Final project took place during 28th & 29th of August & 4th of September, 2021 as a final part of Software Development Academy's course "Software Tester". Each day consisted of around 5h of working time (including planning, consultations, summaries, breaks)
+
+**Plan:**
+* **Day 1:**
+  * Introduction to the project:
+    * Showcase of tools used
+    * Explanation of the plan
+  * Test plan creation
+  * Creation of the majority of test cases
+* **Day 2:**
+  * Running of test cases
+  * Project documentation on Jira
+* **Day 3:**
+  * Sprint Review
+  * Sprint Retrospective
 
 # Sprint 1
 Key points explaining the Sprint 1 Burndown chart:
