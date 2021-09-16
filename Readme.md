@@ -12,18 +12,17 @@
   - [Test Cases](#test-cases)
     - [Test top navigation menus page - Tours](#test-top-navigation-menus-page---tours)
     - [Booking a flight RIX - BER](#booking-a-flight-rix---ber)
+    - [Format for creation of future test cases](#format-for-creation-of-future-test-cases)
   - [Bugs](#bugs)
+    - [Format for creation of future bug reports](#format-for-creation-of-future-bug-reports)
 
 # Preface
 QA Exercise - creating a test plan
-
 **Purpose:**  to solidify the knowledge obtained in the course, by applying it in a practical setting
-
 **Instructions:** 
 * Work in pairs (to simulate RL teamworking experience)
 * Create a test plan, which should include steps to identify both visual and functional defects
 * Document the project on Jira, using Xray extenshion
-
 # Assumptions
 * Performance testing, stress testing, API testing, development QA, etc. are not considered a part of this test plan and assignment
 * This test plan focuses on functional and design QA
@@ -31,7 +30,6 @@ QA Exercise - creating a test plan
 * **Constraints:** The entirety of this project is limited to 2 classes of 5 hours each, including the initial task explanation, Jira demonstration, team forming, etc. 
 
 *(The creation of this Readme falls outside of said time constraints)*
-
 # Tasks
 * Determine scope
 * Create test cases
@@ -113,6 +111,35 @@ Testing will be conducted using latest version (at the time of testing - Version
  * **Expected result:**
     * User should be transfered to PayPal payment page
 
+### Format for creation of future test cases
+* **Page:** *Provide link to the corresponding page*
+* **Feature:** *Describe the tested function/element*
+* **Steps:**
+  * *Describe each step that should be taken to replicate desired path*
+  * *Do so in a precise and conside manner*
+  * *Do so in a manner that would allow Anyone to follow it*
+* **Expected result:**
+  * *Describe the conclusion the person running the test should achieve*
+* **Actual result:**
+  * *In case if the test run fails and the expected result is not achieved, actual result should be described here*
+
 ## Bugs
 * bug: missing page for a featured tour ["6 days around Thailand"](https://github.com/AtazuM/SDA-FinalProject/issues/1#issue-996169051)
 * bug: [FAQ Page text lacks formatting](https://github.com/AtazuM/SDA-FinalProject/issues/2#issue-996177729)
+
+### Format for creation of future bug reports
+* **Details**
+  * **Type:** *Describe the type of bug encountered*
+  * **URL:** *Provide link to the corresponding page*
+  * **Device/OS/Browser:** *Describe the hardware and software used when encountered*
+  * ***Environment*** *If multiple environments are available, state the one used*
+  * **Date:** *State the date of the encounter*
+  * **Priority:** *State the severity of said bug - high/medium/low*
+* **Steps:**
+  * *Describe each step that should be taken to replicate described bug*
+  * *Do so in a precise and conside manner*
+  * *Do so in a manner that would allow Anyone to follow it*
+* **Expected result:**
+  * *Describe the desired outcome*
+* **Actual result:**
+  * *Describe the actual outcome*
